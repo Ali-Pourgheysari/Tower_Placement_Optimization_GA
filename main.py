@@ -8,7 +8,14 @@ def main():
     problem_config = dict()
     with open("problem_config.txt", "r") as f:
         problem_config = json.load(f)
-    
+    # read initial_population.txt containing (x,y) pairs to a list of 2d vectors
+    initial_population = list()
+    with open('initial_population.txt', 'r') as f:
+        data = [line.strip() for line in f]
+        points = [tuple(map(float, line.split(','))) for line in data]
+        n = 4
+        
+
     
     
 if __name__ == "__main__":
