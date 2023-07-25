@@ -60,7 +60,8 @@ Additionally, the script generates fitness plots showing the fitness score for e
 ## Disclaimer
 The genetic algorithm implemented in this code is meant for educational and illustrative purposes. It may not be optimized for large-scale real-world applications. The input data and parameters used for optimization should be adjusted according to specific use cases and problem requirements.
 
-Read the complete documentation [here](Documentation.pdf)
+Read the complete documentation [here](Documentation.pdf).
+Also you can read the [this](code_review.pdf) code review for more details.
 
 Please note that the provided code may have room for improvements and optimization. Feel free to modify and adapt it to suit your needs.
 
